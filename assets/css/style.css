@@ -101,7 +101,7 @@ hr{
     color:#F1F2F7;
     text-decoration:none;
     text-shadow:  7px 7px 14px #d3d3d3,
-    -17px -17px 14px #ffffffd7 !important;
+    -7px -7px 14px #ffffffd7 !important;
     transition:0.8s cubic-bezier(0.77, 0, 0.175, 1);
 }
 .login:hover{
