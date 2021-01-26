@@ -74,3 +74,12 @@ h1,h2{
     font-size:3rem;
     text-decoration: underline;
 }
+
+ul{
+    list-style: none;
+}
+
+li{
+    display:inline-block;
+    
+}
