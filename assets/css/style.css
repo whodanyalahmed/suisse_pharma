@@ -32,9 +32,9 @@ body{
 .neubox{
 
     border-radius: 20px;
-    background: #FFFFFF !important;
-    box-shadow:  20px 20px 32px #bebebe,
-                -20px -20px 32px #ffffff !important;
+    background: #ffffff !important;
+    box-shadow:  7px 7px 14px #808080,
+    -17px -17px 14px #ffffff !important;
 }
 .neumorphic {
     box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
@@ -45,8 +45,8 @@ body{
     display: flex;
   }
 .neumorphic--pressed {
-    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
-      inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: inset 6px 6px 5px 0 rgba(0, 0, 0, 0.2),
+      inset -6px -6px 5px 0 rgba(255, 255, 255, 0.5);
   }
 .roundbtn{
     background:#4752D2;
@@ -83,3 +83,39 @@ li{
     display:inline-block;
     
 }
+
+.or{
+    padding:15px 0px;
+    background: #000;
+    color:#fff;
+    border-radius: 100px;
+}
+
+hr{
+    border-top:2px solid #555;
+    margin-top:30px;
+}
+
+@media (min-width: 992px) { 
+    .or{
+        padding-top:15px!important;
+        padding-bottom:15px!important;
+        padding-right:36px !important;
+        padding-left:16px !important;
+
+        background:#000;
+        
+    }
+}
+@media (min-width: 576px) { 
+    .footerlinks{
+        text-align:center;
+        margin-right:20px !important;
+    }
+ }
+@media (max-width: 576px) { 
+    .footerlinks{
+        text-align:center;
+        margin-right:50px !important;
+    }
+ }
