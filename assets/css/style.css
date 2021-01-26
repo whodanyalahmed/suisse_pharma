@@ -34,7 +34,7 @@ body{
     border-radius: 20px;
     background: #ffffff !important;
     box-shadow:  7px 7px 14px #808080a9,
-    -17px -17px 14px #ffffff !important;
+    -7px -7px 14px #ffffff !important;
 }
 .neumorphic {
     box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
@@ -132,4 +132,16 @@ hr{
         text-align:center;
         margin-right:50px !important;
     }
+ }
+@media (max-width: 455px) { 
+  .option{
+      margin-top:60px !important;
+      font-size:8vw;
+  }
+ }
+@media (max-width: 335px) { 
+  .option{
+      margin-top:60px !important;
+      font-size:5vw;
+  }
  }
