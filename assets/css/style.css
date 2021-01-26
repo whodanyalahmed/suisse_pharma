@@ -1,0 +1,76 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --colorMain: #c0c0c0;
+    --brShadow: 0px 0px 5px rgba(0,0,0,0.5);
+    --tlShadow: 0px 5px 5px rgb(255, 255, 255);
+  }
+  
+
+
+body{
+    font-family: manrope;
+}
+
+.phone{
+    color:#4752D2;
+}
+
+#bg{
+    background:url('../images/bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text {
+    text-shadow: var(--tlShadow), var(--brShadow);
+  }
+
+
+.neubox{
+
+    border-radius: 20px;
+    background: #FFFFFF !important;
+    box-shadow:  20px 20px 32px #bebebe,
+                -20px -20px 32px #ffffff !important;
+}
+.neumorphic {
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+      -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 1.3rem;
+    display: flex;
+  }
+.neumorphic--pressed {
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+      inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+  }
+.roundbtn{
+    background:#4752D2;
+    border-radius: 100px;
+    padding:10px 13px;
+    border:none;
+    margin-left: -40px;
+    z-index:2;
+}
+h1,h2{
+    color:#1D293F;
+}
+.bold{
+    font-family:manrope;
+    font-weight:bolder;
+
+}
+.red{
+    font-family:manrope;
+    font-weight:bolder;
+    color:#FB1515;
+}
+
+.option{
+    font-size:3rem;
+    text-decoration: underline;
+}
