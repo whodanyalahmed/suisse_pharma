@@ -20,6 +20,7 @@ body{
 
 #bg{
     background:url('../images/bg.svg');
+    /* filter: brightness(75%); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,9 +33,10 @@ body{
 .neubox{
 
     border-radius: 20px;
-    background: #ffffff !important;
+    background: #ffffffe0 !important;
     box-shadow:  7px 7px 14px #808080a9,
-    -7px -7px 14px #ffffff !important;
+    -9px -9px 14px #ffffff !important;
+    border:none;
 }
 .neumorphic {
     box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
@@ -45,8 +47,8 @@ body{
     display: flex;
   }
 .neumorphic--pressed {
-    box-shadow: inset 6px 6px 5px 0 rgba(0, 0, 0, 0.2),
-      inset -6px -6px 5px 0 rgba(255, 255, 255, 0.5);
+    box-shadow: inset 3px 3px 5px 0 rgba(0, 0, 0, 0.178),
+      inset -3px -3px 5px 0 rgba(255, 255, 255, 0.5);
   }
 .roundbtn{
     background:#4752D2;
@@ -72,6 +74,8 @@ h1,h2{
 
 .option{
     font-size:3rem;
+    text-shadow:  1px 1px 3px #808080a9,
+    -3px -3px 3px #ffffff !important;
     text-decoration: underline;
 }
 
@@ -92,7 +96,7 @@ li{
 }
 
 hr{
-    border-top:2px solid #555;
+    border-top:1px solid rgba(85, 85, 85, 0.747);
     margin-top:30px;
 }
 .login{
